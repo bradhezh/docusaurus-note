@@ -96,10 +96,11 @@ const config: Config = {
   --ifm-font-family-monospace: "Monaco";
 }
 ...
-/* for pdf */
+/* for pdf
 .markdown {
   font-size: 0.8rem;
 }
+*/
 
 .markdown p {
   margin-bottom: 0.5rem;
@@ -202,3 +203,5 @@ pnpm dlx docusaurus-docs-to-pdf \
     .docusaurus-toc-body .toc-level-0.toc-directory a, \
     .docusaurus-toc-body .toc-level-1.toc-directory a { font-weight: normal }"
 ```
+
+- The generated PDF can be added in `.gitignore`.
