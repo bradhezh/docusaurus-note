@@ -103,7 +103,7 @@ const config: Config = {
 */
 
 .markdown p {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.6rem;
 }
 
 .markdown h1 {
