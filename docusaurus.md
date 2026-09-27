@@ -112,7 +112,7 @@ const config: Config = {
   font-size: 1.2rem;
 }
 
-[class^="codeBlockLines"] {
+code {
   font-size: 0.8rem;
 }
 
@@ -121,7 +121,7 @@ const config: Config = {
   font-size: 10pt;
 }
 
-[class^="codeBlockLines"] {
+code {
   font-size: 8.5pt;
 }
 */
