@@ -96,12 +96,6 @@ const config: Config = {
   --ifm-font-family-monospace: "Monaco";
 }
 ...
-/* for pdf
-.markdown {
-  font-size: 0.8rem;
-}
-*/
-
 .markdown p {
   margin-bottom: 0.6rem;
 }
@@ -117,6 +111,20 @@ const config: Config = {
 .markdown h3 {
   font-size: 1.2rem;
 }
+
+[class^="codeBlockLines"] {
+  font-size: 0.8rem;
+}
+
+/* for pdf
+.markdown {
+  font-size: 10pt;
+}
+
+[class^="codeBlockLines"] {
+  font-size: 8.5pt;
+}
+*/
 ```
 
 **`docs/01-intro.md`**
