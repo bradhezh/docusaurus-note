@@ -64,15 +64,10 @@ const config: Config = {
     navbar: {
       title: "Markdown Example",
       logo: {
-        alt: "Markdown Example Logo",
+        alt: "",
         ...
       }
       items: [
-        {
-          type: "docSidebar",
-          ...
-          label: "Table of Contents",
-        },
         {
           href: "https://github.com/bradhezh/markdown-example",
           ...
