@@ -125,7 +125,7 @@ code {
 **`docs/01-intro.md`**
 ```md
 ---
-title: 1 - Introduction
+title: Chapter 1. Introduction
 slug: /
 ---
 
@@ -135,14 +135,14 @@ This is the introduction. `slug: /` make this the root.
 **`docs/02-chapter2/_category_.json`**
 ```json
 {
-  "label": "2 - Chapter2"
+  "label": "Chapter 2. Chapter2"
 }
 ```
 
 **`docs/02-chapter2/01-sect2.1.md`**
 ```md
 ---
-title: 2.1 - Section2.1
+title: 2.1. Section2.1
 ---
 
 This is section 2.1.
